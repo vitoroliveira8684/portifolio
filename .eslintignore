@@ -1,0 +1,2 @@
+# Ignorar arquivos de dados estáticos para evitar erros de parsing com a config do Next
+src/data/

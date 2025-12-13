@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "tipo": "receita",
+    "descricao": "Salário Mensal",
+    "valor": 5500.00,
+    "categoria": "Renda Principal",
+    "data": "2025-11-05"
+  },
+  {
+    "id": 2,
+    "tipo": "despesa",
+    "descricao": "Aluguel",
+    "valor": 1500.00,
+    "categoria": "Moradia",
+    "data": "2025-11-07"
+  },
+  {
+    "id": 3,
+    "tipo": "despesa",
+    "descricao": "Supermercado",
+    "valor": 850.50,
+    "categoria": "Alimentação",
+    "data": "2025-11-10"
+  },
+  {
+    "id": 4,
+    "tipo": "receita",
+    "descricao": "Freelance - Consultoria",
+    "valor": 1200.00,
+    "categoria": "Renda Extra",
+    "data": "2025-11-15"
+  },
+  {
+    "id": 5,
+    "tipo": "despesa",
+    "descricao": "Internet e Energia",
+    "valor": 300.00,
+    "categoria": "Contas",
+    "data": "2025-11-18"
+  },
+  {
+    "id": 6,
+    "tipo": "despesa",
+    "descricao": "Lazer - Cinema",
+    "valor": 150.00,
+    "categoria": "Lazer",
+    "data": "2025-11-20"
+  }
+]
