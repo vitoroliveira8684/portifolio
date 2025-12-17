@@ -1,4 +1,3 @@
-// src/components/Projects.js
 import React from 'react';
 import ProjectCard from './ProjectCard'; 
 import { projects } from '@/data/projects'; 
@@ -14,6 +13,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
+          // Use o {...project} para enviar as propriedades individualmente
           <ProjectCard key={project.id} {...project} />
         ))}
       </div>
