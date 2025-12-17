@@ -7,7 +7,7 @@ export default function ChatModal({ isOpen, onClose }) {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // COLOQUE AQUI A URL QUE O RENDER TE DEU (Ex: https://ai-agent.onrender.com/api/chat)
+  
   const API_URL = "https://ai-support-agent-3rrp.onrender.com/api/chat"; 
 
   const sendMessage = async () => {

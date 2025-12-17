@@ -21,7 +21,7 @@
           {/* --- PROJETOS --- */}
           <div id="projetos" className="w-full relative z-10">
             {/* Um background sutil para separar seções visualmente */}
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-900/5 to-transparent -z-10"></div>
+            <div className="absolute inset-0 bg-linear-to-b from-transparent via-blue-900/5 to-transparent -z-10"></div>
             <Projects />
           </div>
 
