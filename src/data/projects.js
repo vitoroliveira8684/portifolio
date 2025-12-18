@@ -8,7 +8,7 @@ export const projects = [
         link: "https://github.com/vitoroliveira8684/ai-support-agent-setup.git",
         previewUrl: "#", // O clique aqui abrirá o chat
         isAI: true,
-        imgUrl: "/images/projects/ai-agent.png",
+        imgUrl: "/images/projects/chatbot.png",
     },
     {
         id: 2,
@@ -20,4 +20,3 @@ export const projects = [
         isAI: false,
         imgUrl: "/images/projects/dashboard.png",
     },
-];

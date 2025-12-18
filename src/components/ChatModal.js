@@ -3,12 +3,16 @@
   export default function ChatModal({ isOpen, onClose }) {
     const [messages, setMessages] = useState([
       { role: 'assistant', content: 'Olá! Sou o assistente virtual. Como posso ajudar com suporte técnico hoje?' }
-    ]);
+    ]);;;;
     const [input, setInput] = useState('');
     const [loading, setLoading] = useState(false);
 
     
-    const API_URL = "https://ai-support-agent-3rrp.onrender.com"; 
+    // Se o site estiver rodando em localhost, ele usa a porta 5000. 
+    // Se estiver na internet, ele usa o link do Render automaticamente.
+    const API_URL = window.location.hostname === "localhost" 
+     ? "http://localhost:5000/api/chat" 
+     : "https://ai-support-agent-3rrp.onrender.com/api/chat";
 
     const sendMessage = async () => {
       if (!input.trim()) return;
