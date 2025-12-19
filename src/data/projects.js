@@ -20,3 +20,4 @@ export const projects = [
         isAI: false,
         imgUrl: "/images/projects/dashboard.png",
     },
+];
